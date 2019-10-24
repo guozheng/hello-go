@@ -2,7 +2,7 @@ package util_test
 
 import (
 	"fmt"
-	"hello-go/src/util"
+	"github.com/guozheng/hello-go/src/util"
 	"testing"
 )
 
