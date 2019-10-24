@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/guozheng/hello-go/cmd/util"
+	"github.com/guozheng/hello-go/util"
 )
 
 func TestGetLocalIpAddress(t *testing.T) {
