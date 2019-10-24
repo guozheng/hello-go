@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"hello-go/src/data"
-	"hello-go/src/util"
 	"time"
+
+	"github.com/guozheng/hello-go/src/data"
+	"github.com/guozheng/hello-go/src/util"
 )
 
 func main() {

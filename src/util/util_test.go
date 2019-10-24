@@ -2,8 +2,9 @@ package util_test
 
 import (
 	"fmt"
-	"hello-go/src/util"
 	"testing"
+
+	"github.com/guozheng/hello-go/src/util"
 )
 
 func TestGetLocalIpAddress(t *testing.T) {
