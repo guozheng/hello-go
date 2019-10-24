@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/guozheng/hello-go/src/data"
-	"github.com/guozheng/hello-go/src/util"
+	"github.com/guozheng/hello-go/cmd/data"
+	"github.com/guozheng/hello-go/cmd/util"
 )
 
 func main() {
