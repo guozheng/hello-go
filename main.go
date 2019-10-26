@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Println("hello, Go!")
+	fmt.Println("hello, 世界!")
 
 	// use util methods
 	localIP, err := util.GetLocalIPAddress()
