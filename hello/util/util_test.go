@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/guozheng/hello-go/util"
+	"github.com/guozheng/hello-go/hello/util"
 )
 
 func TestGetOs(t *testing.T) {
