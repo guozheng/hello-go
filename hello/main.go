@@ -9,7 +9,11 @@ import (
 )
 
 func main() {
-	fmt.Println("hello, 世界!")
+	const s = "hello, 世界!"
+	for index, runeValue := range s {
+		fmt.Printf("%#U starts at byte position %d\n", runeValue, index)
+	}
+	fmt.Printf("s=%v, byte len=%d\n", s, len(s))
 
 	// use util methods
 	localIP, err := util.GetLocalIPAddress()

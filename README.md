@@ -4,4 +4,6 @@
 ![keep calm and learn go](./keep-calm.png)
 
 ## references
-   * [Shichao's Notes on Go](https://notes.shichao.io/gopl/)
+   * [Shichao's Notes on Go](https://notes.shichao.io/gopl/): an in-depth coverage of the topics with lots of practical insights
+   * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests)
+   * [Go by example](https://gobyexample.com/)
