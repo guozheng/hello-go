@@ -8,3 +8,5 @@
    * [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests)
    * [Go by example](https://gobyexample.com/)
    * [Go 1.11 Rocket Tutorial](https://getstream.io/blog/go-1-11-rocket-tutorial/)
+   * [Go go-to guide](https://yourbasic.org/golang/)
+   
