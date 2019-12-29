@@ -20,14 +20,16 @@ func TestWallet(t *testing.T)  {
 	})
 
 	t.Run("Withdraw", func(t *testing.T) {
-		w := Wallet{10}
+		var w *Wallet = new(Wallet)
+		w.balance = 10
 		err := w.Withdraw(5)
 		assert.Nil(t, err, "should have enough balance to withdraw")
-		testBalance(t, w, 5)
+		testBalance(t, *w, 5)
 	})
 
 	t.Run("Withdraw too much", func(t *testing.T) {
-		w := Wallet{10}
+		w := new(Wallet)
+		w.balance = 10
 		err := w.Withdraw(50)
 		assert.NotNil(t, err, "withdraw over balance should give error")
 	})
