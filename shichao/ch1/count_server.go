@@ -28,11 +28,13 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	case "GET":
 		mu.Lock()
 		fmt.Fprintf(w, "Count: %d\n", count)
+		log.Printf("Show current count: %d\n", count)
 		mu.Unlock()
 	case "POST":
 		mu.Lock()
 		count++
 		fmt.Fprintf(w, "Count updated")
+		log.Printf("Current count updated")
 		mu.Unlock()
 	default:
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
