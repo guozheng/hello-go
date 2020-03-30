@@ -30,7 +30,7 @@ func main() {
 	ptr := &p
 	ptr.Describe()
 	ptr.SetName("Claire")
-	ptr.SetAge(6)
+	ptr.SetAge(7)
 	ptr.SetGender("F")
 	ptr.Describe()
 
