@@ -8,8 +8,7 @@ import (
 	"time"
 )
 
-func main()  {
-	start := time.Now()
+func main() {
 	urls := [2]string{
 		"http://www.google.com",
 		"http://www.yahoo.com",
@@ -26,11 +25,9 @@ func main()  {
 		fmt.Errorf("Timed out")
 		return
 	}
-
-	fmt.Printf("%.2fs elapsed\n", time.Since(start).Seconds())
 }
 
-func fetch(url string, ch chan<- string)  {
+func fetch(url string, ch chan<- string) {
 	start := time.Now()
 	resp, err := http.Get(url)
 	if err != nil {
